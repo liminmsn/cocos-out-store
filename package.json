@@ -4,7 +4,7 @@
   "description": "Cocos Creator 3.x 构建输出 Store 发布包 CLI",
   "type": "module",
   "bin": {
-    "cocos-build": "./dist/cli.js"
+    "cocos-build": "dist/cli.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -45,7 +45,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liminmsn/cocos-out-store.git"
+    "url": "git+https://github.com/liminmsn/cocos-out-store.git"
   },
   "homepage": "https://github.com/liminmsn/cocos-out-store",
   "bugs": {

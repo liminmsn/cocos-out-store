@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-import pkg from "../package.json"
+import pkg from "../package.json";
 import path from "node:path";
 import fs from "node:fs/promises";
 import { argv } from "node:process";
 import chalk from "chalk";
 import ora from "ora";
 import { exists, getFilePath } from "./utils/Path";
-import { isDirectory, isDirOrFile, isFile, loadConfig } from "./utils/File";
+import { isDirOrFile, loadConfig } from "./utils/File";
 const args = argv.slice(2);
 const projectPath = process.cwd();
 

@@ -1,5 +1,10 @@
 # Cocos Store Build 📦🎮
 
+推荐作为开发依赖安装：
+```bash
+npm i -D cocos-store-build
+```
+
 一个面向 **Cocos Creator 3.x** 的发布包构建 CLI，帮助你把项目中需要提交到 Cocos Store 的内容整理到独立目录中。✨
 
 它会自动收集项目的核心文件，并支持通过配置文件添加额外资源，最终生成一个干净、可发布的 `build_store` 目录。🚀
