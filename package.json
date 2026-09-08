@@ -1,7 +1,7 @@
 {
   "name": "cocos-store-build",
   "version": "1.0.0",
-  "description": "Cocos Creator3.x构建输出商城发布包cli",
+  "description": "Cocos Creator 3.x 构建输出 Store 发布包 CLI",
   "type": "module",
   "bin": {
     "cocos-build": "./dist/cli.js"
@@ -25,13 +25,33 @@
   "engines": {
     "node": ">=18"
   },
-  "devDependencies": {
-    "@types/node": "^26.5.0",
-    "tsup": "^8.5.1",
-    "typescript": "^5.7.3"
+  "keywords": [
+    "cocos",
+    "cocos-creator",
+    "cocos3",
+    "cocos3.x",
+    "cocos-store",
+    "cocos-build",
+    "store",
+    "cli",
+    "build",
+    "typescript",
+    "npm"
+  ],
+  "author": {
+    "name": "杨再涛",
+    "email": "1772081518@qq.com"
   },
-  "dependencies": {
-    "chalk": "^6.0.0",
-    "ora": "^9.4.1"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liminmsn/cocos-out-store.git"
+  },
+  "homepage": "https://github.com/liminmsn/cocos-out-store",
+  "bugs": {
+    "url": "https://github.com/liminmsn/cocos-out-store/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
